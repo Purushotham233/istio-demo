@@ -12,7 +12,10 @@ spec:
   ports: 
   - number: 32172
     name: https
-    protocol: HTTPS       
+    protocol: HTTPS    
+  - number: 8080
+    name: http
+    protocol: HTTP       
   resolution: STATIC
   endpoints:
   - address: 172.18.0.2
